@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal da Ana">
+  <title>Minha página | Ana</title>
+
+  <!-- Bootstrap: framework exigido no trabalho -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark container py-3" aria-label="Navegação principal">
+      <a class="navbar-brand" href="#inicio">Ana lu Melo<span></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav gap-lg-4">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#interesses">Meus interesses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#amigos">Meus amigos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">UM POUCO SOBRE MIM</p>
+          <h1>Oi, eu sou <span>Ana Luísa!</span></h1>
+          <p class="hero-description">
+            Tenho <strong>15 anos</strong>, sou do <strong>1º D</strong> e fiz esta página
+            para o trabalho de Desenvolvimento de Sistemas.
+          </p>
+          <a class="btn btn-wine" href="#sobre">Conheça um pouco mais <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-photo-wrap">
+          <!-- Troque o arquivo abaixo pela sua foto -->
+          <img class="hero-photo" src="img/minha-foto.jpg" alt="Foto da Ana">
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section class="about-section section-space" id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">QUEM EU SOU</p>
+          <h2>Sobre mim</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-photo-frame">
+            <img src="img/sobre-mim.jpg" alt="Uma foto que representa a Ana">
+          </div>
+          <div class="about-text">
+            <p>
+              Oi! sou a Ana Luísa, tenho 15 anos e estudo no Instituto J&F. Sou uma pessoa que gosta
+              de aprender coisas novas, conhecer assuntos diferentes e aproveitar
+              os momentos com as pessoas importantes para mim.
+            </p>
+            <p>
+              Gosto bastante de tecnologia e tenho me interessado cada vez mais
+              pela área.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERESSES: cada item tem foto e texto lado a lado -->
+    <section class="interests-section section-space" id="interesses">
+      <div class="container">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">COISAS QUE FAZEM PARTE DE MIM</p>
+          <h2>Meus interesses</h2>
+          <p class="section-intro">Algumas coisas de que gosto.</p>
+        </div>
+
+        <div class="interest-list">
+          <article class="interest-item">
+            <div class="interest-image">
+              <img src="img/cozinha.jpg" alt="Comida preparada pela Ana">
+            </div>
+            <div class="interest-copy">
+              <span class="interest-number">01 / COZINHA</span>
+              <h3>Gosto de cozinhar</h3>
+              <p>
+                Gosto de testar receitas e preparar coisas diferentes. Isso é um dos meus atos de carinho, adoro cozinhar para as outras pessoas. 
+              </p>
+            </div>
+          </article>
+
+          <article class="interest-item interest-item-reverse">
+            <div class="interest-image">
+              <img src="img/livros.jpg" alt="Livros favoritos da Ana">
+            </div>
+            <div class="interest-copy">
+              <span class="interest-number">02 / LEITURA</span>
+              <h3>Livros</h3>
+              <p>
+                Ler é meu hobbie favorito, desde os meus 6 anos. Leio muito e de tudo um pouco. O meu livro favorito é Malibu Renasce da Taylor Jenkind Reid. 
+              </p>
+            </div>
+          </article>
+
+          <article class="interest-item">
+            <div class="interest-image">
+              <img src="img/serie.jpg" alt="Imagem relacionada à série favorita da Ana">
+            </div>
+            <div class="interest-copy">
+              <span class="interest-number">03 / SÉRIES</span>
+              <h3>Minha série favorita</h3>
+              <p>
+                Além de gastar meu tempo lendo eu amo ver séries. A minha favorita de todas é The O.C, mas eu tenho assistido muito Friends e gostado bastante. 
+              </p>
+            </div>
+          </article>
+
+    </section>
+
+    <!-- AMIGOS -->
+    <section class="friends-section section-space" id="amigos">
+      <div class="container">
+        <div class="friends-intro">
+          <div>
+            <p class="eyebrow">PESSOAS ESPECIAIS</p>
+            <h2>Minhas pessoas</h2>
+          </div>
+          <p class="friends-description">
+            Uma coisa que me faz muito feliz mesmo são os meus amigos e familia. Esse ano conheci muitas pessoas especiais, que tornaram essa no maravilhoso. E junto a ela tem a minha familia que me ajudou durante muitos momentos esse ano!
+          </p>
+        </div>
+
+        <div class="friends-gallery">
+          <figure class="friends-photo friends-photo-large">
+            <img src="img/amigos-1.jpg" alt="Foto com amigos">
+            <figcaption>Momentos que ficam na memória</figcaption>
+          </figure>
+          <figure class="friends-photo">
+            <img src="img/amigos-2.jpg" alt="Outra foto com amigos">
+            <figcaption>Boas companhias</figcaption>
+          </figure>
+          <figure class="friends-photo">
+            <img src="img/amigos-3.jpg" alt="Mais um momento com amigos">
+            <figcaption>Um registro especial</figcaption>
+          </figure>
+        
+    </section>
+
+    <!-- PLANOS -->
+    <section class="plans-section section-space" id="planos">
+      <div class="container plans-layout">
+        <div class="plans-photo">
+          <img src="img/planos.jpg" alt="Foto que representa os planos da Ana">
+        </div>
+        <div class="plans-copy">
+          <p class="eyebrow">OLHANDO PARA FRENTE</p>
+          <h2>Para o ano que vem</h2>
+          <p>
+            Para o próximo ano, a minha maior meta é continuar aprendendo, e também me conhecendo melhor. Esse ano me mudou e muito, e tenho certeza que o ano que vem também vai. 
+          </p>
+          <p>
+            Quero aproveitar muito 2027. Ir bem na escola, começar o estagio e quem sabe não gostar de alguém. Mas como principal, quero que o ano que vem seja melhor e com muitas mais conquistas do que esse ano!
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>Ana lu Melo</span>
+      <p>Que a sorte esteja sempre a seu favor!</p>
+      <a href="#inicio">Voltar ao início ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
